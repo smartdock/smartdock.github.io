@@ -43,8 +43,8 @@ var appMaster = {
     screensCarousel: function() {
         // Screens Carousel
         $('.filtering').slick({
-            slidesToShow: 4,
-            slidesToScroll: 4,
+            slidesToShow: 1,
+            slidesToScroll: 1,
             dots: false,
             responsive: [{
                 breakpoint: 1024,
@@ -120,7 +120,7 @@ var appMaster = {
             onHoverStop: "off",
             fullScreenOffsetContainer: ""
         });
-        
+
     },
 
     scrollMenu: function(){
@@ -142,7 +142,7 @@ var appMaster = {
                 $(this).closest('.navbar-collapse').removeClass('in');
             }
         });
-        
+
     },
     placeHold: function(){
         // run Placeholdem on all elements with placeholders
